@@ -1,0 +1,48 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.header-left {
+	width: 50%;
+	min-height: 70vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	background-color: #ffffff;
+}
+.header-left .name {
+	margin: 3rem 3rem;
+}
+.header-left .name span {
+	color: black;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+}
+.header-left .menu {
+	margin-right: 0;
+	margin-left: auto;
+	margin-top: 3.5rem;
+	width: 200px;
+}
+.header-left .menu span {
+	color: black;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+}
+.header-left .menu span:nth-child(1) {
+	margin-right: 2rem;
+}
